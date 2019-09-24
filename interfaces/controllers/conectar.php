@@ -69,6 +69,8 @@ require '../model/conexion.php';
       $sql = $this->getdb()->prepare("UPDATE tblacceso set clave = ? WHERE docIDUsuario = ?");
       $sql->execute([$password,$documento]);
     }
+
+    //funcion para crear consultar los reportes generados 
  }
 
 
