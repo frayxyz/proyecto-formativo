@@ -32,20 +32,60 @@
  
 
     <nav>
-        <div class="style-contenido">
+    <div class="style-contenido">
             <div class="style-navegacion">
                 <div class="style-botones boton">
-                    <button type="button" id="btn-1" class="btn botoncito">Citacion Comite </button> <i class="far fa-bell"></i>
-                </div>
-                <div class="style-botones boton">
-                    <button type="button" id="btn-2" class="btn botoncito">Citar Aprendices </button><i class="fas fa-users"></i>
-                </div>
-                <div class="style-botones boton">
-                    <button type="button" id="btn-3" class="btn botoncito">Configuracion  </button><i class="fas fa-cog"></i>
+                    <button type="button" id="btn-1" class="btn botoncito">Reportes a Comite </button> <i class="far fa-bell"></i>
                 </div>
 
+
+
+                <div class="dbtn-group dropright style-botones botoncito">
+                    <button class="btn botoncito dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Reportes Generales
+                    </button>
+
+                    <div class="dropdown-menu p-3" aria-labelledby="dropdownMenuButton">
+                        <div class="style-botones-dropdown boton">
+                            <button type="button" id="btn-2" class="btn">*Aprendices Citados Por Ficha Y Programa</button>
+                        </div>
+                        <div class="style-botones-dropdown boton">
+                            <button type="button" id="btn-2" class="btn">*Areas Que Realizan Más Citaciones A Comité</button>
+                        </div>
+                        <div class="style-botones-dropdown boton">
+                            <button type="button" id="btn-2" class="btn">*Total Aprendices Citados A Comité</button>
+                        </div>
+                        <div class="style-botones-dropdown boton">
+                            <button type="button" id="btn-2" class="btn">*Total Aprendices Citados A Comité Por Materia</button>
+                        </div>
+                        <div class="style-botones-dropdown boton">
+                            <button type="button" id="btn-2" class="btn">*Equipo Ejecutor Por Ficha</button>
+                        </div>
+                        <div class="style-botones-dropdown boton">
+                            <button type="button" id="btn-2" class="btn">*Instructor Que Realiza Más Citaciones Por Programa De Foración</button>
+                        </div>
+                        <div class="style-botones-dropdown boton">
+                            <button type="button" id="btn-2" class="btn">*Total Aprendices Citados A Comité</button>
+                        </div>
+                        <div class="style-botones-dropdown boton">
+                            <button type="button" id="btn-2" class="btn">*Aprendices Citados Por Ficha Y Programa</button>
+                        </div>
+                        <div class="style-botones-dropdown boton">
+                            <button type="button" id="btn-2" class="btn">*Total Aprendices Citados A Comité</button>
+                        </div>
+                        <div class="style-botones-dropdown boton">
+                            <button type="button" id="btn-2" class="btn">*Total Aprendices Citados A Comité En El Año</button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
                 <div class="style-botones boton">
-                    <button type="button" id="btn-4" class="btn botoncito">Configuracion-23  </button><i class="fas fa-cog"></i>
+                    <button type="button" id="btn-3" class="btn botoncito">Configuracion  </button><i class="fas fa-cog"></i>
                 </div>
                 <a href="libs/salir.php" id="btn-4" class="btn botoncito btn4">
                     <div class="style-botones ">
