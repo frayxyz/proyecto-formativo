@@ -49,6 +49,8 @@ class Conexion{
         }
     }
     
+    //funcion para consultar que se muestran en coordinador
+  
 }
 
 ?>

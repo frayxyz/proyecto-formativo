@@ -80,10 +80,6 @@
                     </div>
                 </div>
 
-
-
-
-
                 <div class="style-botones boton">
                     <button type="button" id="btn-3" class="btn botoncito">Configuracion  </button><i class="fas fa-cog"></i>
                 </div>
@@ -96,8 +92,8 @@
             </div>
         </div>
     </nav>
-
-    <section>
+  
+    <section  >
        <div class="style-change" id="change">
         </div>
     </section>
