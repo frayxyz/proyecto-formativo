@@ -17,27 +17,14 @@
   if ($result){
       
     while($row=mysqli_fetch_array($result)){
-        echo "<tr>";
+        echo "<tr>";    
+        echo "<td>".$row['consecutivo']."</td>";
         echo "<td>".$row['numFicha']."</td>";
         echo "<td>".$row['nombre']."</td>";
         echo "<td>".$row['fecha']."</td>";
          echo "</tr>";
     }
- /* echo "<tr>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>[email protected]</td>
-                </tr>
-                <tr>
-                    <td>Smith</td>
-                    <td>Thomas</td>
-                    <td>[email protected]</td>
-                </tr>
-                <tr>
-                    <td>Merry</td>
-                    <td>Jim</td>
-                    <td>[email protected]</td>
-                </tr>";*/
+
     }else{ 
         echo "hay errores";
     }
